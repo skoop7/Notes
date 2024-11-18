@@ -86,3 +86,54 @@ Pseudo selector example
 - Absolute - It changes according to nearest non static Parent element
 
 - relative - It changes according to its prior position or original position
+
+# FlexBox
+
+flexbox have 4 types of properties
+
+- flex-direction --> It is to decide which is the main axis and which is the cross axis e.g. row,row-reverse,column,coloumn-reverse
+- flex wrap --> it will wrap up the content according to the size
+- justify-content --> it is use to justify the content across main axis
+- allign-items --> it is use to allign items across the cross axis
+
+<b> For applying above properties just add
+
+```
+display:flex
+```
+
+Most common properties of container are
+
+- gap
+- grid-template-row
+- grid-template-col
+- justify-content
+- allign-items
+
+if you write to make columns in grid
+
+grid-template-columns: 1fr 1fr 1fr 1fr
+
+here fr means fraction
+
+instead of that you can write
+
+```
+grid-template-columns:repeat(4,1fr)
+```
+
+# Transform
+
+There are main 4 properties of Transform
+
+- scale --> To increase or decrease the size
+- Skew --> To tilt the element
+- rotate --> Rotate the element by certain deg
+- Translate
+
+# Transition
+
+- Duration
+- Delay
+- Property
+- family function --> ease in ,ease out , ease in out, cubic breezer
